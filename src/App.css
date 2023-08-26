@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;300;400;500;600;700&family=Karla:wght@200;300;500;700;800&display=swap');
+
+.container-card{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    font-family: 'Karla', 'sans-serif';
+    }
+    
+
+.row{
+    padding: 30px;
+    background-color: black;
+    border-radius: 1rem 1rem 0 0;
+}
+.row-2{
+    display: flex;
+}
+
+span{
+    font-size: 2rem;
+    padding-right:5px;
+}
+
+section{
+    flex: 1;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+.sec-1{
+    border-bottom-left-radius: 1rem;
+    background-color: hsl(179, 62%, 43%);
+}
+.p-one{
+    line-height: 1.4;
+}
+.p-two{
+    margin-bottom: 40px;
+}
+button{
+    width: 70%;
+    padding: 10px;
+    border-radius: .5rem;
+    border: none;
+    font-family: inherit;
+    background-color: var(--primary-color-yellow);
+    font-size: 1rem;
+}
+.sec-2{
+    border-bottom-right-radius: 1rem;
+    background-color: hsl(179, 64%, 36%);
+}
+
+@media screen and (max-width: 800px) {
+    .row-2 {
+        display: flex;
+      flex-direction: column;
+    }
+    .sec-1{
+        border-radius: 0;
+        /* margin: 0 auto; */
+    }
+    .sec-2{
+        border-radius: 0 0 1rem 1rem;
+    }
+    button{
+        padding: 20px;
+        width: 90%;
+        font-size: 1.5rem;
+    }
+  }
+
